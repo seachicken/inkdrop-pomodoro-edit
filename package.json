@@ -1,0 +1,15 @@
+{
+  "name": "inkdrop-pomodoro-edit",
+  "main": "./lib/inkdrop-pomodoro-edit",
+  "version": "0.0.0",
+  "description": "Pomodoro Timer with the simplest text syntax",
+  "keywords": [
+  ],
+  "repository": "https://github.com/seachicken/inkdrop-pomodoro-edit",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^4.x"
+  },
+  "dependencies": {
+  }
+}
