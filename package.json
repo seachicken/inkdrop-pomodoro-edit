@@ -3,13 +3,15 @@
   "main": "./lib/inkdrop-pomodoro-edit",
   "version": "0.0.0",
   "description": "Pomodoro Timer with the simplest text syntax",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/seachicken/inkdrop-pomodoro-edit",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
   },
   "dependencies": {
+    "core-js": "^2.6.11",
+    "luxon": "^1.22.0",
+    "pomodoro-edit-core": "^0.1.6"
   }
 }
