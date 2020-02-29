@@ -2,7 +2,7 @@
 
 Pomodoro Timer with the simplest text syntax.
 
-![Demonstration](.github/demo.gif)
+![Demonstration](https://github.com//seachicken/inkdrop-pomodoro-edit/blob/master/.github/demo.gif?raw=true)
 
 ## Installation
 
