@@ -20,3 +20,7 @@ Edit your notes with the syntax examples below.
 * [ ] [p25] xxx
   * [ ] [p25] xxx
 ```
+
+## Changelog
+
+See the [GitHub releases](https://github.com/seachicken/inkdrop-pomodoro-edit/releases) for an overview of what changed in each update.
