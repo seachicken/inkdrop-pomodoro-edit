@@ -7,7 +7,7 @@ Pomodoro Timer with simplest text syntax for Inkdrop.
 ## Installation
 
 ```sh
-ipm install inkdrop-pomodoro-edit
+ipm install pomodoro-edit
 ```
 
 ## Usage

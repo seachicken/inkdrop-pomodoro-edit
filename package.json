@@ -1,6 +1,6 @@
 {
   "name": "pomodoro-edit",
-  "main": "./lib/inkdrop-pomodoro-edit",
+  "main": "./lib/pomodoro-edit",
   "version": "1.0.4",
   "description": "Pomodoro Timer with simplest text syntax for Inkdrop",
   "keywords": [],
