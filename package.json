@@ -10,7 +10,6 @@
     "inkdrop": "^4.x"
   },
   "dependencies": {
-    "core-js": "^2.6.11",
     "luxon": "^1.22.0",
     "pomodoro-edit-core": "^0.1.7"
   }
