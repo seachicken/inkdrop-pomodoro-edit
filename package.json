@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "luxon": "^1.22.0",
-    "pomodoro-edit-core": "^0.2.0"
+    "pomodoro-edit-core": "^0.2.1"
   }
 }
