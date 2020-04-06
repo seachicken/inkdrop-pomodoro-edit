@@ -12,10 +12,8 @@ ipm install pomodoro-edit
 
 ## Usage
 
-Edit your notes with syntax examples below.
-
 ```md
-## Basic syntax
+## Syntax
 
 * [ ] [p25] xxx (supported unordered list bullet are '*' and '-')
   * [ ] [p25] xxx
@@ -23,7 +21,7 @@ Edit your notes with syntax examples below.
 💡Command + Control + P: autocomplete above syntax
 
 
-## Basic operation
+## Operation
 
 Start timer:
 
