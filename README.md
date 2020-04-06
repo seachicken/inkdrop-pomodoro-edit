@@ -14,12 +14,46 @@ ipm install pomodoro-edit
 
 Edit your notes with syntax examples below.
 
-```
-[p25] xxx
-* [p25] xxx
-* [ ] [p25] xxx
+```md
+## Basic syntax
+
+* [ ] [p25] xxx (supported unordered list bullet are '*' and '-')
   * [ ] [p25] xxx
+
+💡Command + Control + P: autocomplete above syntax
+
+
+## Basic operation
+
+Start timer:
+
+* [ ] [p25] xxx (when after save, start timer)
+
+Finish timer:
+
+* [x] [p25] xxx
+
+Pause timer:
+
+* [ ] [-p25] xxx
+
+Retry timer:
+
+press 'Retry' button on Tray
+
+
+## Tips
+
+if multiple timers are required, pause the next timer beforehand so that the timer does not start unintentionally
+
+* [x] [p25] xxx
+* [ ] [-p25] yyy
+* [ ] [-p25] zzz
 ```
+
+## Key customizations
+
+Default keymaps are defined [here](https://github.com/seachicken/inkdrop-pomodoro-edit/blob/master/keymaps/pomodoro-edit.json) and you can override them in your `keymap.cson` file.
 
 ## Changelog
 
