@@ -39,6 +39,10 @@ Retry timer:
 
 press 'Retry' button on Tray
 
+Go to Line:
+
+press 'Go to Line' button on Tray or click on the finished notification
+
 
 ## Tips
 
