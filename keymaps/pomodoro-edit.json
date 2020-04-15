@@ -1,6 +1,7 @@
 {
   ".CodeMirror textarea:not(.visible-hint)": {
-    "cmd-ctrl-p": "pomodoro-edit:show-hint"
+    "ctrl-cmd-p": "pomodoro-edit:show-hint",
+    "ctrl-alt-p": "pomodoro-edit:show-hint"
   },
   ".CodeMirror textarea.visible-hint": {
     "up": "pomodoro-edit:up-hint",

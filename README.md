@@ -18,7 +18,7 @@ ipm install pomodoro-edit
 * [ ] [p25] xxx (supported unordered list bullet are '*' and '-')
   * [ ] [p25] xxx
 
-💡Command + Control + P: autocomplete above syntax
+💡Ctrl+Cmd+P/Ctrl+Alt+P: autocomplete above syntax
 
 
 ## Operation
