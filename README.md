@@ -10,47 +10,57 @@ Pomodoro Timer with simplest text syntax for Inkdrop.
 ipm install pomodoro-edit
 ```
 
-## Usage
-
-```md
 ## Syntax
 
+```md
 * [ ] [p25] xxx (supported unordered list bullet are '*' and '-')
   * [ ] [p25] xxx
+```
 
-💡Ctrl+Cmd+P/Ctrl+Alt+P: autocomplete above syntax
+💡Ctrl+Cmd+P / Ctrl+Alt+P: Autocomplete above syntax
 
+### Start timer
 
-## Operation
-
-Start timer:
-
+```md
 * [ ] [p25] xxx (when after save, start timer)
+```
 
-Finish timer:
+### Finish timer
 
+```md
 * [x] [p25] xxx
+```
 
-Pause timer:
+### Pause timer
 
+```md
 * [ ] [-p25] xxx
+```
 
-Retry timer:
+### Retry timer
 
-press 'Retry' button on Tray
+Press 'Retry' button on Tray.
 
-Go to Line:
+### Go to Line
 
-press 'Go to Line' button on Tray or click on the finished notification
-
+Press 'Go to Line' button on Tray or click on the finished notification.
 
 ## Tips
 
-if multiple timers are required, pause the next timer beforehand so that the timer does not start unintentionally
+If multiple timers are required, pause the next timer beforehand so that the timer does not start unintentionally.
 
+```md
 * [x] [p25] xxx
 * [ ] [-p25] yyy
 * [ ] [-p25] zzz
+```
+
+If you're using the [vim](https://my.inkdrop.app/plugins/vim) plugin and the autocomplete hint doesn't close, add the below keymap in your `keymap.cson` file.
+
+```cson
+  ".CodeMirror textarea.visible-hint": {
+    "escape": "pomodoro-edit:close-hint"
+  }
 ```
 
 ## Key customizations
