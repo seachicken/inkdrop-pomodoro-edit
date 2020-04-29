@@ -37,6 +37,12 @@ ipm install pomodoro-edit
 * [ ] [-p25] xxx
 ```
 
+### Add extra time
+
+```md
+* [ ] [p25+5] xxx
+```
+
 ### Retry timer
 
 Press 'Retry' button on Tray.
