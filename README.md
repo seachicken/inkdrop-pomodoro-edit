@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/seachicken/pomodoro-edit-core/master/.github/logo.png" align="right" width="100"> Pomodoro Edit for Inkdrop
 
-Pomodoro Timer with simplest text syntax for Inkdrop.
+Pomodoro Timer with simplest text syntax.
 
 ![Demonstration](https://github.com//seachicken/inkdrop-pomodoro-edit/blob/master/.github/demo.gif?raw=true)
 
