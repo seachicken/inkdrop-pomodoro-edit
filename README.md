@@ -13,8 +13,8 @@ ipm install pomodoro-edit
 ## Syntax
 
 ```md
-* [ ] [p25] xxx (supported unordered list bullet are '*' and '-')
-  * [ ] [p25] xxx
+* [ ] [p25 p5] xxx (single pomodoro 🍅)
+* [ ] [(p25 p5)4] xxx (four pomodoros 🍅🍅🍅🍅) 
 ```
 
 💡Ctrl+Cmd+P / Ctrl+Alt+P: Autocomplete above syntax
@@ -22,25 +22,19 @@ ipm install pomodoro-edit
 ### Start timer
 
 ```md
-* [ ] [p25] xxx (when after save, start timer)
+* [ ] [(p25 p5)4] xxx (when after save, start timer)
 ```
 
 ### Finish timer
 
 ```md
-* [x] [p25] xxx
+* [x] [(p25 p5)4] xxx
 ```
 
 ### Pause timer
 
 ```md
-* [ ] [-p25] xxx
-```
-
-### Add extra time
-
-```md
-* [ ] [p25+5] xxx
+* [ ] [-(p25 p5)4] xxx
 ```
 
 ### Retry timer
@@ -56,9 +50,9 @@ Press 'Go to Line' button on Tray or click on the finished notification.
 If multiple timers are required, pause the next timer beforehand so that the timer does not start unintentionally.
 
 ```md
-* [x] [p25] xxx
-* [ ] [-p25] yyy
-* [ ] [-p25] zzz
+* [x] [(p25 p5)4] xxx
+* [ ] [-(p25 p5)4] yyy
+* [ ] [-(p25 p5)4] zzz
 ```
 
 If you're using the [vim](https://my.inkdrop.app/plugins/vim) plugin and the autocomplete hint doesn't close, add the below keymap in your `keymap.cson` file.
