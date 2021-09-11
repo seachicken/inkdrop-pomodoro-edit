@@ -67,6 +67,10 @@ If you're using the [vim](https://my.inkdrop.app/plugins/vim) plugin and the aut
 
 Default keymaps are defined [here](https://github.com/seachicken/inkdrop-pomodoro-edit/blob/master/keymaps/pomodoro-edit.json) and you can override them in your `keymap.cson` file.
 
+## Add-ons
+
+You can get e-mail notifications [here](https://github.com/seachicken/pomodoro-edit-notifier).
+
 ## Changelog
 
 See the [GitHub releases](https://github.com/seachicken/inkdrop-pomodoro-edit/releases) for an overview of what changed in each update.
