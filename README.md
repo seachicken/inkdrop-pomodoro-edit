@@ -13,11 +13,11 @@ ipm install pomodoro-edit
 ## Syntax
 
 ```md
-* [ ] [p25 p5] xxx (single pomodoro 🍅)
 * [ ] [(p25 p5)4] xxx (four pomodoros 🍅🍅🍅🍅) 
+* [ ] [p25] xxx (single timer)
 ```
 
-💡Ctrl+Cmd+P / Ctrl+Alt+P: Autocomplete above syntax
+💡Ctrl+Space: Autocomplete above syntax
 
 ### Start timer
 
@@ -55,21 +55,13 @@ If multiple timers are required, pause the next timer beforehand so that the tim
 * [ ] [-(p25 p5)4] zzz
 ```
 
-If you're using the [vim](https://my.inkdrop.app/plugins/vim) plugin and the autocomplete hint doesn't close, add the below keymap in your `keymap.cson` file.
-
-```cson
-  ".CodeMirror textarea.visible-hint": {
-    "escape": "pomodoro-edit:close-hint"
-  }
-```
-
 ## Key customizations
 
 Default keymaps are defined [here](https://github.com/seachicken/inkdrop-pomodoro-edit/blob/master/keymaps/pomodoro-edit.json) and you can override them in your `keymap.cson` file.
 
 ## Add-ons
 
-You can get e-mail notifications [here](https://github.com/seachicken/pomodoro-edit-notifier).
+Get e-mail notifications: [seachicken/pomodoro-edit-notifier](https://github.com/seachicken/pomodoro-edit-notifier)
 
 ## Changelog
 
