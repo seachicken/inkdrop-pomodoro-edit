@@ -10,7 +10,7 @@
     "inkdrop": "^4.x"
   },
   "dependencies": {
-    "luxon": "^1.22.0",
-    "pomodoro-edit-core": "^0.5.0"
+    "@seachicken/pomodoro-edit-core": "^0.5.2",
+    "luxon": "^1.22.0"
   }
 }
