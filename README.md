@@ -13,7 +13,7 @@ ipm install pomodoro-edit
 ## Syntax
 
 ```md
-* [ ] [(p25 p5)4] xxx (four pomodoros 🍅🍅🍅🍅) 
+* [ ] [(p25✍️ p5☕️)4] xxx (four pomodoros 🍅🍅🍅🍅) 
 * [ ] [p25] xxx (single timer)
 ```
 
