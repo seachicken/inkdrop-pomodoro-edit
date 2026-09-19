@@ -7,7 +7,7 @@
   "repository": "https://github.com/seachicken/inkdrop-pomodoro-edit",
   "license": "MIT",
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^6.0.0"
   },
   "dependencies": {
     "@seachicken/pomodoro-edit-core": "^0.7.0"
