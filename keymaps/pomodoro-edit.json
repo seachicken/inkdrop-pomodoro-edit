@@ -1,16 +1,7 @@
 {
-  ".CodeMirror textarea:not(.visible-hint)": {
+  ".cm-editor": {
     "ctrl-space": "pomodoro-edit:show-hint",
     "ctrl-cmd-p": "pomodoro-edit:show-hint",
     "ctrl-alt-p": "pomodoro-edit:show-hint"
-  },
-  ".CodeMirror textarea.visible-hint": {
-    "up": "pomodoro-edit:up-hint",
-    "ctrl-p": "pomodoro-edit:up-hint",
-    "down": "pomodoro-edit:down-hint",
-    "ctrl-n": "pomodoro-edit:down-hint",
-    "tab": "pomodoro-edit:select-hint",
-    "enter": "pomodoro-edit:select-hint",
-    "escape": "pomodoro-edit:close-hint"
   }
 }
